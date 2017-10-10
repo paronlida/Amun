@@ -28,6 +28,6 @@ protocols=importlib.import_module(config.protocols)
 mLogger.info('Importing done')
 
 print (resources.intro)
-#-------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------
 gvar.users.append(user.root())
 protocols.ra()
